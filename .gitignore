@@ -1,0 +1,34 @@
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de respaldo y temporales
+*~
+*.bak
+*.swp
+
+# Ignorar archivos de compilación y ejecutables
+*.o
+*.out
+*.exe
+
+# Ignorar directorios de dependencias y entornos virtuales
+/node_modules
+/venv
+
+# Ignorar archivos de configuración local
+.env
+
+# Ignorar archivos de registro y salida
+/log
+/output
+
+# Ignorar archivos de datos sensibles
+secrets.txt
+credentials.json
+
+# Ignorar archivos específicos en un directorio
+/path/to/file.txt
+
+# Ignorar un directorio completo
+/path/to/directory/
